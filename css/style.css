@@ -1,0 +1,84 @@
+body {
+	background-color: antiquewhite;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Helvetica, Arial, sans-serif;  /* why two fonts? because the user has to have the font installed (Helvetica is OSx, Arial is Windows) */
+
+}
+
+.main {
+	background: rgba(255,255,255,0.8);
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0px 0px 10px 5px white;
+}
+
+
+h1{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 50px;
+	color: black;
+	text-shadow: 2px 2px 0px darkgrey;
+}
+
+
+h1,
+h2{text-align: center;
+}
+
+h2{
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 5px;
+	border-top: 1px solid black;
+	padding-top: 20px;  /* Abstand zwischen dem Strich */
+
+}
+
+h3{cursor: 
+	default;
+} /* give the cursor a look*/
+
+h1 {text-transform: :uppercase;}
+
+img{
+	width:200px;  /* dont specify image height AND width since it will be distorted otherwise */
+	display: block; /* show and hide by using "none" and "block" - gesteuert by JavaScript*/
+	margin: 0 auto; 
+	border-radius: 50% 50% 50% 50%;
+	border:30px  black;
+	padding: 20px;
+
+}
+
+h3, div p {margin-bottom: 
+	0;
+}
+
+p,
+ul,
+ol{
+	line-height: 1.4;
+	list-style: none;
+	padding:0;    /* delete spacing of lists from webkit padding start - was integrated automatically because it´s a "user agent style" - that means the browser chooses in auto mode a listing */
+}
+
+.banana {
+	color:grey;
+}
+
+a /* a stands for links- with this you can change the design from the links (not classic blue) */ {
+	color: purple;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover,  /* mouse hover */
+a:focus { /* navigate with tab */
+	color: pink;
+	text-decoration: underline;
+}
+
